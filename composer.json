@@ -1,0 +1,16 @@
+{
+    "name": "quangcntt/php",
+    "autoload": {
+        "psr-4": {
+            "Core\\": "vendor/core",
+            "App\\" : "app"
+        }
+    },
+    "authors": [
+        {
+            "name": "Quang1907",
+            "email": "ltrinh1907@gmail.com"
+        }
+    ],
+    "require": {}
+}
