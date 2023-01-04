@@ -1,7 +1,7 @@
 <?php
 
-use App\ProductController;
-use App\UserController;
+use App\Http\Controllers\ProductController;
+use App\Http\Controllers\UserController;
 use Core\Route;
 
 // Route::get( $path, $callback );

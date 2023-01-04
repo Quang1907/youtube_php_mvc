@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace App\Http\Controllers;
 
 class ProductController {
     public function index() {

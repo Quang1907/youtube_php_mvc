@@ -3,7 +3,7 @@
     "autoload": {
         "psr-4": {
             "Core\\": "vendor/core",
-            "App\\" : "app/Http/Controllers"
+            "App\\" : "app"
         }
     },
     "authors": [
@@ -12,5 +12,7 @@
             "email": "ltrinh1907@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "vlucas/phpdotenv": "^5.5"
+    }
 }
