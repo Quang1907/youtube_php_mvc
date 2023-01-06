@@ -10,6 +10,7 @@ class Route {
 
     public function __construct() {
         self::$route = $this;
+        new Database;
     }
 
     public function loadRoute() {

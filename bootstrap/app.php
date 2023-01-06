@@ -8,17 +8,16 @@ $dotenv = Dotenv\Dotenv::createImmutable( __DIR_ROOT );
 $dotenv->load();
 
 use Core\App;
-use Core\Connection;
+// use Core\Connection;
 $app = new App;
 
-$conn = Connection::getInstance();
+// $conn = Connection::getInstance();
 
-$sql = "SELECT * FROM USERS";
+// $sql = "SELECT * FROM USERS";
 
-$stmt = $conn->query( $sql );
-$user = $stmt->fetchAll();
+// $stmt = $conn->query( $sql );
+// $user = $stmt->fetchAll();
 
-echo '<pre>';
-var_dump( $user );
-echo '</pre>';
-
+// echo '<pre>';
+// var_dump( $user );
+// echo '</pre>';

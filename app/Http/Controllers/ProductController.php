@@ -2,8 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\User;
+
 class ProductController {
     public function index() {
-        echo 'index product';
+        $data = [];
+        User::insert( $data );
     }
 }

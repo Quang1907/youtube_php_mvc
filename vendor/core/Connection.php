@@ -20,7 +20,7 @@ class Connection {
             ];
             return self::$instance = new PDO( $dsn, $_ENV[ 'DB_USERNAME' ], $_ENV[ 'DB_PASSWORD' ], $options );
         } catch ( Exception $ex ) {
-            Error::render( [ 'mesaage' => $ex ] );
+            Error::render( [ 'message' => $ex ] );
         }
     }
     public static function getInstance() {
